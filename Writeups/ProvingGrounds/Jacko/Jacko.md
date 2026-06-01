@@ -116,7 +116,7 @@ The specific version of H2 running is `1.4.199`.
 Versions `1.0` up to `2.3.230` of H2 database are vulnerable to Remote Code Execution (RCE).
 The exploit linked below can be used to run arbitrary commands.
 
-[](https://www.exploit-db.com/exploits/49384)
+[https://www.exploit-db.com/exploits/49384](https://www.exploit-db.com/exploits/49384)
 
 By default, this runs `whoami` which reveals the user to be `jacko\tony`.
 
