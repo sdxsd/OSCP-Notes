@@ -16,7 +16,7 @@ Test null session (SMB port 445)
 - `nxc smb $IP -u '' -p ''`
 
 Test for guest logon (SMB port 445)
-- `nxc smb $IP -u '' -p ''`
+- `nxc smb $IP -u 'a' -p ''`
 
 ## Linux:
 
