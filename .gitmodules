@@ -1,0 +1,3 @@
+[submodule "Scripts/nxc-sweep"]
+	path = Scripts/nxc-sweep
+	url = https://github.com/corey-farley/nxc-sweep
