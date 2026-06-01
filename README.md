@@ -20,6 +20,8 @@ Please hack responsibly.
 
 [Hack The Box Academy Notes/](Notes/HackTheBoxAcademy/)
 
+[Box Checklist](Notes/Boxlist.md)
+
 ### Useful Links:
 
 [Lainkusanagi OSCP Like list](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/)
