@@ -1,3 +1,6 @@
 [submodule "Scripts/nxc-sweep"]
 	path = Scripts/nxc-sweep
 	url = https://github.com/corey-farley/nxc-sweep
+[submodule "Writeups/ProvingGrounds/Kevin/CVE-2009-2685"]
+	path = Writeups/ProvingGrounds/Kevin/CVE-2009-2685
+	url = https://github.com/Muhammd/HP-Power-Manager
