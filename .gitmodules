@@ -4,3 +4,6 @@
 [submodule "Writeups/ProvingGrounds/Kevin/CVE-2009-2685"]
 	path = Writeups/ProvingGrounds/Kevin/CVE-2009-2685
 	url = https://github.com/Muhammd/HP-Power-Manager
+[submodule "Writeups/ProvingGrounds/Internal/CVE-2009-3103"]
+	path = Writeups/ProvingGrounds/Internal/CVE-2009-3103
+	url = https://github.com/sec13b/ms09-050_CVE-2009-3103.git
