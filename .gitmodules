@@ -7,3 +7,6 @@
 [submodule "Writeups/ProvingGrounds/Internal/CVE-2009-3103"]
 	path = Writeups/ProvingGrounds/Internal/CVE-2009-3103
 	url = https://github.com/sec13b/ms09-050_CVE-2009-3103.git
+[submodule "Writeups/ProvingGrounds/ClamAV/CVE-2007-4560"]
+	path = Writeups/ProvingGrounds/ClamAV/CVE-2007-4560
+	url = https://github.com/STK-Security/sendmail-clamav-exploit-CVE-2007-4560
