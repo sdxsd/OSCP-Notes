@@ -10,3 +10,9 @@
 [submodule "Writeups/ProvingGrounds/ClamAV/CVE-2007-4560"]
 	path = Writeups/ProvingGrounds/ClamAV/CVE-2007-4560
 	url = https://github.com/STK-Security/sendmail-clamav-exploit-CVE-2007-4560
+[submodule "Writeups/ProvingGrounds/Snookums/SimplePHPGal-RCE"]
+	path = Writeups/ProvingGrounds/Snookums/SimplePHPGal-RCE
+	url = https://github.com/beauknowstech/SimplePHPGal-RCE.py.git
+[submodule "Writeups/ProvingGrounds/Bratarina/CVE-2020-7247"]
+	path = Writeups/ProvingGrounds/Bratarina/CVE-2020-7247
+	url = https://github.com/superzerosec/cve-2020-7247
