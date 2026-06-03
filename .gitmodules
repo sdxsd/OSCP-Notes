@@ -16,3 +16,9 @@
 [submodule "Writeups/ProvingGrounds/Bratarina/CVE-2020-7247"]
 	path = Writeups/ProvingGrounds/Bratarina/CVE-2020-7247
 	url = https://github.com/superzerosec/cve-2020-7247
+[submodule "Writeups/HackTheBox/Reactor/react2shell-exploit"]
+	path = Writeups/HackTheBox/Reactor/react2shell-exploit
+	url = https://github.com/surajhacx/react2shellpoc.git
+[submodule "Writeups/HackTheBox/Reactor/node-inspector-rce"]
+	path = Writeups/HackTheBox/Reactor/node-inspector-rce
+	url = https://github.com/BHBarlow/node-inspector-rce.git
