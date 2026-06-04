@@ -22,3 +22,6 @@
 [submodule "Writeups/HackTheBox/Reactor/node-inspector-rce"]
 	path = Writeups/HackTheBox/Reactor/node-inspector-rce
 	url = https://github.com/BHBarlow/node-inspector-rce.git
+[submodule "Writeups/HackTheBox/CCTV/motionEye-RCE"]
+	path = Writeups/HackTheBox/CCTV/motionEye-RCE
+	url = https://github.com/prabhatverma47/motionEye-RCE-through-config-parameter

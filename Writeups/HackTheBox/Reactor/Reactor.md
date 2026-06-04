@@ -101,7 +101,7 @@ Downloading a PoC (see submodule), I gained RCE as the `node` user.
 
 First I read `/etc/passwd`
 ```
-  ▸ engineer:x:1000:1000:engineer:/home/engineer:/bin/bash
+engineer:x:1000:1000:engineer:/home/engineer:/bin/bash
 ```
 
 Of note was the user `engineer`.
