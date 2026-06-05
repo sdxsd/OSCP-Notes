@@ -31,3 +31,6 @@
 [submodule "Writeups/HackTheBox/DevHub/CVE-2026-23744-PoC"]
 	path = Writeups/HackTheBox/DevHub/CVE-2026-23744-PoC
 	url = https://github.com/boroeurnprach/CVE-2026-23744-PoC.git
+[submodule "Writeups/HackTheBox/SmartHire/CVE-2024-37054-PoC"]
+	path = Writeups/HackTheBox/SmartHire/CVE-2024-37054-PoC
+	url = https://github.com/jimmexploit/CVE-2024-37054-PoC.git
