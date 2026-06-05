@@ -25,3 +25,9 @@
 [submodule "Writeups/HackTheBox/CCTV/motionEye-RCE"]
 	path = Writeups/HackTheBox/CCTV/motionEye-RCE
 	url = https://github.com/prabhatverma47/motionEye-RCE-through-config-parameter
+[submodule "Writeups/HackTheBox/Helix/CVE-2023-34468-POC"]
+	path = Writeups/HackTheBox/Helix/CVE-2023-34468-POC
+	url = https://github.com/sbouabid-sec/CVE-2023-34468-POC.git
+[submodule "Writeups/HackTheBox/DevHub/CVE-2026-23744-PoC"]
+	path = Writeups/HackTheBox/DevHub/CVE-2026-23744-PoC
+	url = https://github.com/boroeurnprach/CVE-2026-23744-PoC.git
