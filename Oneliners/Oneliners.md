@@ -50,4 +50,7 @@ Outputs a list of all processes running as `<USER>`
 Outputs a list of all processes:
 -  `ps aux`
 
+Find files containing `pwd` or `passw` recursively using grep. Starts from the current directory.
+- `grep -r -I -i "pwd\|passw" 2>/dev/null`
+
 ## Active Directory:

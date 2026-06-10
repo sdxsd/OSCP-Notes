@@ -43,3 +43,9 @@
 [submodule "Writeups/HackTheBox/Silentium/CVE-2025-8110"]
 	path = Writeups/HackTheBox/Silentium/CVE-2025-8110
 	url = https://github.com/Ghxstsec/CVE-2025-8110.git
+[submodule "Writeups/HackTheBox/WingData/CVE-2025-47812"]
+	path = Writeups/HackTheBox/WingData/CVE-2025-47812
+	url = https://github.com/estebanzarate/CVE-2025-47812-Wing-FTP-Server-7.4.3-Unauthenticated-RCE-PoC.git
+[submodule "Writeups/HackTheBox/WingData/CVE-2025-4517"]
+	path = Writeups/HackTheBox/WingData/CVE-2025-4517
+	url = https://github.com/AzureADTrent/CVE-2025-4517-POC.git
