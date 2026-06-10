@@ -3,4 +3,5 @@
 *.log
 tmp/
 Notes/OSCP-private.md
-
+*.exe
+Writeups/HackTheBox/Connected/

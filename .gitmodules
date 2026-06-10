@@ -34,3 +34,12 @@
 [submodule "Writeups/HackTheBox/SmartHire/CVE-2024-37054-PoC"]
 	path = Writeups/HackTheBox/SmartHire/CVE-2024-37054-PoC
 	url = https://github.com/jimmexploit/CVE-2024-37054-PoC.git
+[submodule "Writeups/HackTheBox/Connected/CVE-2025-57819-PoC"]
+	path = Writeups/HackTheBox/Connected/CVE-2025-57819-PoC
+	url = https://github.com/b4sh2/CVE-2025-57819-poc.git
+[submodule "Writeups/HackTheBox/Silentium/CVE-2025-58434-59528"]
+	path = Writeups/HackTheBox/Silentium/CVE-2025-58434-59528
+	url = https://github.com/AzureADTrent/CVE-2025-58434-59528.git
+[submodule "Writeups/HackTheBox/Silentium/CVE-2025-8110"]
+	path = Writeups/HackTheBox/Silentium/CVE-2025-8110
+	url = https://github.com/Ghxstsec/CVE-2025-8110.git

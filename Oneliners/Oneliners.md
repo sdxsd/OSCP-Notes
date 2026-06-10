@@ -10,6 +10,9 @@ Thorough aggressive scan of all ports with default scripts and service detection
 Fast UDP scan
 - `sudo nmap -sUV -F -T4 $IP`
 
+Subdomain enumeration
+- `ffuf -w SecLists/Discovery/DNS/bitquark-subdomains-top100000.txt -u 'http://<ip>' -H "Host:FUZZ.<domain>.<tld>" -fs <exclude_length (normally 178)>`
+
 ## Windows:
 
 Test null session (SMB port 445)
