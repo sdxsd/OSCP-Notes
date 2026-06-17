@@ -49,3 +49,12 @@
 [submodule "Writeups/HackTheBox/WingData/CVE-2025-4517"]
 	path = Writeups/HackTheBox/WingData/CVE-2025-4517
 	url = https://github.com/AzureADTrent/CVE-2025-4517-POC.git
+[submodule "Writeups/HackTheBox/Kobold/CVE-2026-23744-PoC"]
+	path = Writeups/HackTheBox/Kobold/CVE-2026-23744-PoC
+	url = https://github.com/boroeurnprach/CVE-2026-23744-PoC.git
+[submodule "Writeups/HackTheBox/Kobold/CVE-2025-64714-Private-Bin"]
+	path = Writeups/HackTheBox/Kobold/CVE-2025-64714-Private-Bin
+	url = https://github.com/Medaz-Sploit/CVE-2025-64714-privatebin-2.0.2-PoC.git
+[submodule "Writeups/HackTheBox/Netmon/CVE-2018-9276"]
+	path = Writeups/HackTheBox/Netmon/CVE-2018-9276
+	url = https://github.com/A1vinSmith/CVE-2018-9276.git

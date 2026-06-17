@@ -6,3 +6,7 @@
 - [Hacktricks](https://hacktricks.wiki)
 - [0xdf](https://0xdf.gitlab.io)
 - [ired](https://www.ired.team)
+
+## Initial Access:
+- Try `admin:admin` on all login endpoints.
+- If you find an account, try the username as the password.
