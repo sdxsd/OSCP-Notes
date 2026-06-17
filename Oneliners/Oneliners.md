@@ -57,3 +57,7 @@ Find files containing `pwd` or `passw` recursively using grep. Starts from the c
 - `grep -r -I -i "pwd\|passw" 2>/dev/null`
 
 ## Active Directory:
+
+Find all objects which are writable by the current user
+- `bloodyad --host <ip> -d <domain> -u '<username>' -p '<pass>' get writable`
+- `bloodhound-ce-python -u '<username>' -p '<pass>' -d <domain> --collectionmethod All,LoggedOn`
