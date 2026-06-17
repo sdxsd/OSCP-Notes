@@ -29,6 +29,9 @@ Enumerate users via `RID` bruteforcing.
 
 ## Linux:
 
+Find binaries with capabilities:
+- `getcap -r / 2>/dev/null`
+
 Find all `SUID` binaries.
 - `find '/' 2>/dev/null -perm /4000`
 
